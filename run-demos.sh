@@ -31,8 +31,8 @@ case $choice in
     java 02-hibernate-n-plus-one/NPlusOneSimFun.java
     ;;
   3)
-    echo -e "\n${GREEN}>> Starting App with Java Flight Recorder (-XX:StartFlightRecorder)...${NC}\n"
-    java -XX:StartFlightRecorder=filename=app.jfr,settings=profile 03-jfr-flight-deck/AppWithJFR.java
+    echo -e "\n${GREEN}>> Starting App with Java Flight Recorder (-XX:StartFlightRecording)...${NC}\n"
+    java -XX:StartFlightRecording=filename=app.jfr,settings=profile 03-jfr-flight-deck/AppWithJFR.java
     echo -e "\n${YELLOW}Saved profile to ${BOLD}app.jfr${NC}${YELLOW}! Open in JDK Mission Control or async-profiler.${NC}\n"
     ;;
   4)

@@ -1,5 +1,3 @@
-package benchmark;
-
 import java.util.*;
 
 /**
