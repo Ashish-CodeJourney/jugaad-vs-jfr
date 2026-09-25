@@ -3,6 +3,8 @@
 
 Talk slide deck and live runnable demo benchmarks by **Ashish Vaghela**.
 
+> Companion repo for my talk: **[Jugaad VS JFR: Ad-Hoc Hacks vs Native Telemetry](https://ashish-codejourney.github.io/talks/jugaad-vs-jfr/)**
+
 ---
 
 ## 🚀 Quickstart (No Build Tools Required)
